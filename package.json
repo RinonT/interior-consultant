@@ -1,0 +1,25 @@
+{
+  "name": "interior-consultant",
+  "version": "1.0.0",
+  "description": "Challenge: Create a homepage following the design. The page should be responsive. Don’t look at the existing solution. Fulfill user stories below:",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "scss": "node-sass scss -o webroot/css",
+    "scss:watch": "npm run scss && node-sass scss -w -o webroot/css",
+    "start": "npm run scss:watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ganamavo/interior-consultant.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ganamavo/interior-consultant/issues"
+  },
+  "homepage": "https://github.com/ganamavo/interior-consultant#readme",
+  "dependencies": {
+    "node-sass": "^4.14.1"
+  }
+}

@@ -1,0 +1,24 @@
+.article_heading {
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 46px;
+}
+
+.article_paragraph {
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 17px;
+}
+
+.article_paragraph ~ .page_links {
+    display: block;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.image_container img {
+    max-width: 100%;
+}

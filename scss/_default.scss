@@ -1,0 +1,25 @@
+@import "mixins";
+
+body {
+    font-family: "Montserrat";
+    background: #181719;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 16px;
+    margin: 0;
+    padding: 16px;
+    color: #FFFFFF;
+}
+
+ul {
+    @include reset(ul);
+}
+
+a {
+    text-decoration: none;
+}
+
+span {
+    display: block;
+}

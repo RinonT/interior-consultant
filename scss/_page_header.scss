@@ -1,0 +1,30 @@
+@import "mixins";
+
+.page_header__heading {
+    font-weight: 200;
+    font-size: 14px;
+    line-height: 16px;
+    text-transform: uppercase;
+    border: 1px solid #ffffff;
+    box-sizing: border-box;
+    padding: 8px;
+}
+
+.page_navigation {
+    @include flex-column-alignement;
+    display: none;
+    padding-top: 10px;
+} 
+
+details[open] ~ nav {
+    display: block;
+}
+.page_navigation__tabs__list {
+    padding-top: 32px;
+}
+.page_links {  
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    color: #ffffff;
+}
