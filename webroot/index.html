@@ -14,17 +14,15 @@
             <h1 class="page_header__heading">
                 This Interior
             </h1>
-            <details class="show_menu">
-                <summary class="open_menu" title="Menu">
-                    <span>
-                        Tabs-menu
-                    </span>
-                </summary>
-                <p class="detail_paragraph">
-                    Open to open and close menu
-                </p>
-            </details>
+            <div class="show_menu">
+                <button class="open_menu_btn" type="button">
+                    <svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 0 24 24" width="24">
+                        <path d="M0 0h24v24H0z" fill="none" />
+                        <path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z" /></svg>
+                </button>
+            </div>
             <nav class="page_navigation">
+                <button class="page_navigation_hide-menu-btn">&times;</button>
                 <ul class="page_navigation__tabs">
                     <li class="page_navigation__tabs__list">
                         <a href="/homepage" class="page_links">
@@ -60,8 +58,11 @@
                     A full-Service residential & commercial interior design and staging company offering professional
                     organizing & eco-services.
                 </p>
-                <a class="page_links" href="./more-info">
-                    Read more
+                <a class="page_links article_links" href="./more-info">
+                    <span>Read more</span>
+                    <svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 0 24 24" width="24">
+                        <path d="M0 0h24v24H0z" fill="none" />
+                        <path d="M16.01 11H4v2h12.01v3L20 12l-3.99-4z" /></svg>
                 </a>
             </article>
             <article class="page_container__article">
@@ -89,6 +90,7 @@
             </p>
         </div>
     </footer>
+    <script src="./script.js"></script>
 </body>
 
 </html>
