@@ -126,6 +126,7 @@ span {
   line-height: 46px; }
 
 .article_paragraph {
+  max-width: 500px;
   font-weight: 300;
   font-size: 14px;
   line-height: 17px; }
@@ -155,48 +156,50 @@ span {
   .main_container {
     display: flex;
     flex-direction: row;
-    justify-content: space-between; }
+    justify-content: space-between;
+    gap: 100px; }
   .article_paragraph {
     font-size: 24px;
     line-height: 29px; } }
 
-.page_footer {
-  position: absolute;
-  top: 86%;
-  padding-bottom: 32px; }
+article.page_container__article:nth-of-type(2) {
+  position: relative; }
 
-.footer_container {
+.contact_article_container {
+  position: absolute;
+  top: 78%;
+  left: 12%;
+  right: 12%;
   background: #181719;
-  max-width: 70%;
   margin-left: auto;
   margin-right: auto;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); }
 
-.footer_container::after {
+.contact_article_container::after {
   content: "";
   display: block;
   background-color: #ffffff;
   width: 100%;
   height: 2px; }
 
-.page_tabs.footer_tabs {
+.page_tabs.contact_article_tabs {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   justify-content: unset;
   padding: 16px; }
 
-.footer_tabs__list:first-of-type {
+.contact_article_tabs__list:first-of-type {
   max-width: 35%; }
 
-.footer_tabs__list:nth-of-type(2) {
+.contact_article_tabs__list:nth-of-type(2) {
   margin-top: 12px; }
 
-.footer_tabs__list:nth-of-type(2) span:nth-of-type(1) {
+.contact_article_tabs__list:nth-of-type(2) span:nth-of-type(1) {
   margin-bottom: 12px; }
 
-.page_paragraph.footer_paragraph {
-  padding-left: 0; }
+.page_paragraph.contact_article_paragraph {
+  padding-left: 24px; }
 
 .profile_image {
   max-width: 60%;
@@ -204,18 +207,18 @@ span {
   margin-right: 16px; }
 
 @media (min-width: 760px) {
-  .page_footer {
-    transform: translate(193%, -4%);
-    padding-bottom: 169px; }
-  .footer_container {
+  .contact_article_container {
+    left: 30%;
+    right: 5%; }
+  .contact_article_container {
     max-width: 90%; }
-  .page_paragraph.footer_paragraph {
+  .page_paragraph.contact_article_paragraph {
     font-weight: bold;
     font-size: 24px;
     line-height: 31px;
     padding-bottom: 34px;
     margin-top: 0; }
-  .footer_tabs__list:nth-of-type(2) {
+  .contact_article_tabs__list:nth-of-type(2) {
     margin-top: 12px; }
-  .footer_container::after {
+  .contact_article_container::after {
     display: none; } }
