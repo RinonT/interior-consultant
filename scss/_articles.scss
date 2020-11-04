@@ -1,7 +1,7 @@
 @import "mixins";
 
 .article_heading {
-    font-weight: normal;
+    font-family: 'Lora', serif; 
     font-size: 36px;
     line-height: 46px;
 }
@@ -11,6 +11,14 @@
     font-weight: 300;
     font-size: 14px;
     line-height: 17px;
+}
+
+.contact_article_tabs__list span {
+    font-family: 'Montserrat', sans-serif; 
+}
+
+.contact_article_tabs__list span:nth-of-type(2) {
+    color: #828282;
 }
 
 .article_paragraph ~ .page_links {
@@ -24,6 +32,11 @@
 
 .image_container img {
     max-width: 100%;
+}
+
+.page_paragraph.contact_article_paragraph {
+    font-family: 'Lora', serif;
+    font-weight: bold;
 }
 
 .article_links {
@@ -40,7 +53,7 @@
         }
 }
 
-@media (min-width: 760px) {
+@media (min-width: 1114px) {
     .main_container {
         @include flex-row-alignement;
         gap: 100px;

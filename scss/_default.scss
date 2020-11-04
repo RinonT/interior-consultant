@@ -1,7 +1,7 @@
 @import "mixins";
 
 body {
-    font-family: "Montserrat";
+    font-family: 'Montserrat', sans-serif;
     background: #181719;
     font-style: normal;
     font-weight: 400;
@@ -25,7 +25,7 @@ span {
     display: block;
 }
 
-@media(min-width: 760px) {
+@media(min-width: 1114px) {
     .page_container {
         max-width: 1114px;
         margin-left: auto;
