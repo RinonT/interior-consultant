@@ -24,15 +24,15 @@ Template for your readme :
 
 <!-- Please update value in the {}  -->
 
-<h1 align="center">{Your project name}</h1>
+<h1 align="center">Interiour Consultant</h1>
 
 <div align="center">
   <h3>
-    <a href="https://{your-demo-link.your-domain}">
+    <a href="https://interior-consultant-page.netlify.app/">
       Demo
     </a>
     <span> | </span>
-    <a href="https://{your-url-to-the-solution}">
+    <a href="https://github.com/ganamavo/interior-consultant">
       Solution
     </a>
   </h3>
@@ -57,16 +57,19 @@ Template for your readme :
 
 Introduce your projects by taking a screenshot or a gif. Try to tell visitors a story about your project by answering:
 
--   Where can I see your demo?
--   What was your experience?
--   What have you learned/improved?
--   Your wisdom? :)
+-   My demo?
+    I have deployed with [Netlify][https://www.netlify.com/], so you can see the demo by clicking on [this link][https://interior-consultant-page.netlify.app/"].
+-  Experience:
+  I tried to use font-links in this project instead of my habit to use sass functions or @import. Working on a responsive design and inproving web performance.
 
+-   What I have learned/improved: 
+In this project, my focus is on flexibility and positioning elements.
+ 
 ### Built With
 
 <!-- This section should list any major frameworks that you built your project using. Here are a few examples.-->
 
--   [React](https://reactjs.org/)
+-   [Sass](https://sass-lang.com/)
 
 ## Features
 
@@ -95,6 +98,6 @@ $ npm start
 
 ## Contact
 
--   Website [your-website.com](https://{your-web-site-link})
--   GitHub [@your-username](https://{github.com/your-usermame})
--   Twitter [@your-twitter](https://{twitter.com/your-username})
+-   Website [your-website.com](https://rhino-perso-websites.netlify.app/)
+-   GitHub [@your-username](https://github.com/ganamavo)
+-   Twitter [@your-twitter](https://twitter.com/RTendrinomena)
