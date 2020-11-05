@@ -58,7 +58,7 @@ Template for your readme :
 Introduce your projects by taking a screenshot or a gif. Try to tell visitors a story about your project by answering:
 
 -   My demo?
-    I have deployed with [Netlify][https://www.netlify.com/], so you can see the demo by clicking on [this link][https://interior-consultant-page.netlify.app/"].
+    I have deployed with [Netlify](https://www.netlify.com/), so you can see the demo by clicking on [this link](https://interior-consultant-page.netlify.app/").
 -  Experience:
   I tried to use font-links in this project instead of my habit to use sass functions or @import. Working on a responsive design and inproving web performance.
 
