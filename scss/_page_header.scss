@@ -25,6 +25,10 @@
     position: absolute;
     background: #181719;
     transform: translateX(-150%);
+
+    & a {
+        font-family: 'Montserrat', sans-serif;
+    }
 }
 
 .show_menu {

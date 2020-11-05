@@ -54,6 +54,8 @@ span {
   position: absolute;
   background: #181719;
   transform: translateX(-150%); }
+  .page_navigation a {
+    font-family: 'Montserrat', sans-serif; }
 
 .show_menu {
   margin-top: -12px; }
@@ -127,7 +129,7 @@ span {
   line-height: 46px; }
 
 .article_paragraph {
-  max-width: 500px;
+  max-width: 580px;
   font-weight: 300;
   font-size: 14px;
   line-height: 17px; }
@@ -148,10 +150,6 @@ span {
 
 .image_container img {
   max-width: 100%; }
-
-.page_paragraph.contact_article_paragraph {
-  font-family: 'Lora', serif;
-  font-weight: bold; }
 
 .article_links {
   font-weight: 600;
@@ -210,6 +208,7 @@ article.page_container__article:nth-of-type(2) {
   margin-bottom: 12px; }
 
 .page_paragraph.contact_article_paragraph {
+  font-family: 'Lora', serif;
   padding-left: 24px; }
 
 .profile_image {
